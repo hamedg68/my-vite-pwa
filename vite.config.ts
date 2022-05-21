@@ -8,7 +8,15 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
-     
+      manifest: {
+        name: "hhhhh is testing",
+        short_name: "h test",
+        start_url: "/my-vite-pwa/",
+        display: "standalone",
+        background_color: "#F55536",
+        lang: "en",
+        scope: "/my-vite-pwa/",
+      },
     }),
   ],
 });

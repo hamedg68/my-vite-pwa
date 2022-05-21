@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld msg="add pwa to project" />
+  <HelloWorld msg="new manifest and new theme" />
 </template>
 
 <style>
